@@ -55,7 +55,11 @@
 }
 
 body {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
   background-color: #fff;
+  background-image: image(monolith.jpg);
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
