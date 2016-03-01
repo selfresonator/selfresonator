@@ -59,7 +59,7 @@ body {
   background-position: top center;
   background-attachment: fixed;
   background-color: #fff;
-  background-image: image(monolith.jpg);
+  background-image: url(http://i.imgur.com/WaF4wi1.jpg);
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -67,15 +67,20 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 2px yellow, 0 0 2px black;
   margin:0 0 20px;
 }
 
 p, ul, ol, table, pre, dl {
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 2px yellow, 0 0 2px black;
   margin:0 0 20px;
+  font-size: 1.25em;
 }
 
 h1, h2, h3 {
+  color:white;
   line-height:1.1;
 }
 
@@ -84,31 +89,35 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:white;
 }
 
 a {
-  color:#39c;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 2px yellow, 0 0 2px black;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:orange;
 }
 
 a small {
   font-size:11px;
-  color:#777;
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#777;
+  color:orange;
 }
 
 .wrapper {
@@ -298,6 +307,7 @@ footer {
 
   header ul, header p.view {
     position:static;
+
   }
 
   pre, code {
