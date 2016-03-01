@@ -68,13 +68,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color:white;
-  text-shadow: 1px 1px 2px black, 0 0 2px yellow, 0 0 2px black;
+  text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px black;
   margin:0 0 20px;
 }
 
 p, ul, ol, table, pre, dl {
   color:white;
-  text-shadow: 1px 1px 2px black, 0 0 2px yellow, 0 0 2px black;
+  text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px black;
   margin:0 0 20px;
   font-size: 1.25em;
 }
@@ -90,7 +90,7 @@ h1 {
 
 h2 {
   color:white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 
 }
 
@@ -100,7 +100,7 @@ h3, h4, h5, h6 {
 
 a {
   color:white;
-  text-shadow: 1px 1px 2px black, 0 0 2px yellow, 0 0 2px black;
+  text-shadow: 1px 1px 2px black, 0 0 2px black, 0 0 2px black;
   text-decoration:none;
 }
 
@@ -111,7 +111,7 @@ a:hover {
 a small {
   font-size:11px;
   color:white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
   margin-top:-0.3em;
   display:block;
 }
