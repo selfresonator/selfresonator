@@ -36,7 +36,11 @@
 <p>Huh?<p>
 <p>Let me explain...</p>
 <p>Suppose we have a function that returns a function. But our function is special. It holds <b>stuff</b>. What stuff? Any stuff! This functions returns a function that takes a <b>container</b>, <i>any</i> container, and puts the stuff, stored as variable in our outer function, and puts it in the container! Like so: </p>
-<img src="closures1.png" width="70%" height="70%"></img>
+<img src="closures1.png" width="75%" height="75%"></img><br>
+<p>The <b>stuffer</b> function, which takes any stuff as a parameter, returns <b>stuffThis</b>, with the <b>stuff</b> value binded to the string to be returned by <b>stuffThis</b>. <b>stuffThis</b> retains access to the outer functions parameter through something called <b>SCOPE</b>, another important concept. For now, Just remember that a function returned by another can always access the outer function's variables by reference, and that's called a Closure Scope!</p>
+<p>So when we save a call stuffer as our <b>blueStuff</b>, we pass <b>'Black Hole'</b> for a container to put our stuff in!</p>
+<p>And voila! We now have a function that returns a function that can keep variables from an outer function. Closures are the most effective way of stroing values from other functions to be re-used. Always remember <b>DRY</b>(don't repeat yourself), and stay tuned - I'll go over some more info on scopes and higher-order functions very soon!!!</p>
+<p>Peace!!!</p>
 <br><br><br>
         <h2><a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><i>Tuesday, March 1, 2016</i></h2>
 
@@ -54,7 +58,7 @@
 
       </section>
       <footer>
-        <p><a href="https://github.com/selfresonator/selfresonator">This blog</a> is most definitely maintained by selfresonator</p>
+        <p><a href="https://github.com/selfresonator/selfresonator">by selfresonator</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
